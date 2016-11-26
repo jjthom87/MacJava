@@ -11,8 +11,40 @@ public class UdemyArray {
 
     }
 
+    static void threeDimensionalArrays() {
+        System.out.println("\nInside threeDimensionalArrays ...");
+        int[][][] unitsSold = new int[][][] {
+            { //New York
+                {0,0,0,0}, //jan
+                {0,0,0,0}, //feb
+                {0,0,0,0}, //mar
+                {0,850,0,0} //apr
+            },
+            { //San Francisco
+                {0,0,0,0}, //jan
+                {0,0,0,0}, //feb
+                {0,0,0,0}, //mar
+                {0,0,0,0} //apr  
+            },
+            {
+                {0,0,0,0}, //jan
+                {0,0,0,0}, //feb
+                {0,0,0,0}, //mar
+                {0,0,0,0} //apr  
+            },
+            {
+                {0,0,0,0}, //jan
+                {0,0,0,0}, //feb
+                {0,0,0,0}, //mar
+                {0,0,0,0} //apr  
+            }
+        };
+        System.out.println("unitsSold[0][3][1]: " + unitsSold[0][3][1]);
+    }
+
     public static void main(String[] args){
-        arrays();
+        // arrays();
+        threeDimensionalArrays();
     }
 
 }
